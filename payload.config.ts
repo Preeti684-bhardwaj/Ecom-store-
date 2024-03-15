@@ -5,14 +5,14 @@ import { webpackBundler } from '@payloadcms/bundler-webpack'
 import { slateEditor } from '@payloadcms/richtext-slate'
 import { buildConfig } from 'payload/config'
 
-import Users from './collections/Users'
-import StoreAttributes from './collections/Store'
-import Upload from './collections/Media'
-import ContentMedia from './collections/ContentMedia'
-import ProductGroupAttributes from './collections/Products/ProductGroup'
-import ProductCategoryAttributes from './collections/Products/ProductCategory'
-import ProductAttributes from './collections/Products/Product'
-import InventoryAttributes from './collections/Products/ProductInventory'
+import Users from './src/collections/Users'
+import StoreAttributes from './src/collections/Store'
+import Upload from './src/collections/Media'
+import ContentMedia from './src/collections/ContentMedia'
+import ProductGroupAttributes from './src/collections/Products/ProductGroup'
+import ProductCategoryAttributes from './src/collections/Products/ProductCategory'
+import ProductAttributes from './src/collections/Products/Product'
+import InventoryAttributes from './src/collections/Products/ProductInventory'
 
 export default buildConfig({
   serverURL:process.env.PAYLOAD_PUBLIC_EXTERNAL_SERVER_URL,
